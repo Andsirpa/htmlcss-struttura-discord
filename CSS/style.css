@@ -58,3 +58,24 @@ header {
     border: 1px dashed black;
     background-color: #daa520;
 }
+
+/* MAIN */
+
+.sec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* debug */
+    background-color: #00008b;
+    min-height: 300px;
+
+}
+
+.sec-1-box {
+    width: 50%;
+    height: 250px;
+    /* debug */
+    border: 1px dashed black;
+    background-color: #ee82ee;
+
+}
