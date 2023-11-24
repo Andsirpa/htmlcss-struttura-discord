@@ -61,17 +61,34 @@ header {
 
 /* MAIN */
 
-.sec-1 {
+.main-sec {
     display: flex;
     align-items: center;
     justify-content: center;
     /* debug */
-    background-color: #00008b;
+
     min-height: 300px;
+}
+
+.sec-box {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    /* debug */
+    border: 1px dashed black;
+}
+
+
+/* main section 1 */
+
+.sec-1 {
+
+    /* debug */
+    background-color: #00008b;
 
 }
 
-.sec-1-box {
+#box-1 {
     width: 50%;
     height: 250px;
     /* debug */
@@ -80,14 +97,15 @@ header {
 
 }
 
+
+
+/* main section 2 */
+
 .sec-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     /* debug */
     background-color: #ffffff;
-    min-height: 300px;
 }
+
 
 .sec-2-box {
     display: flex;
@@ -114,4 +132,24 @@ header {
     width: 40%;
     /* debug */
     background-color: #ffc0cb;
+}
+
+
+/* main section 3 */
+
+.sec-3 {
+    /* debug */
+    background-color: #d3d3d3;
+}
+
+.sec-3-item-1 {
+    width: 40%;
+    /* debug */
+    background-color: #ffc0cb;
+}
+
+.sec-3-item-2 {
+    width: 60%;
+    /* debug */
+    background-color: #1e90ff;
 }
