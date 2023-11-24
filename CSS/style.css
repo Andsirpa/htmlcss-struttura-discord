@@ -88,9 +88,14 @@ header {
 
 }
 
-#box-1 {
+.box-1 {
     width: 50%;
+}
+
+#box-1 {
+    width: 100%;
     height: 250px;
+
     /* debug */
     border: 1px dashed black;
     background-color: #ee82ee;
@@ -188,4 +193,28 @@ header {
     width: 40%;
     /* debug */
     background-color: #ffc0cb;
+}
+
+
+/* main sec 5 */
+
+.sec-5 {
+
+    /* debug */
+    background-color: #d3d3d3;
+    min-height: 500px;
+
+}
+
+.box-5 {
+    width: 70%;
+}
+
+#box-5 {
+    width: 100%;
+    height: 450px;
+    /* debug */
+    border: 1px dashed black;
+    background-color: #228b22;
+
 }
