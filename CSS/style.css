@@ -218,3 +218,38 @@ header {
     background-color: #228b22;
 
 }
+
+
+/* footer */
+
+.footer-sec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* debug */
+    background-color: #23272a;
+    min-height: 300px;
+}
+
+.footer-sec-box {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 250px;
+    /* debug */
+    border: 1px dashed #fefefe;
+}
+
+.footer-sec-1-item-1 {
+    width: 40%;
+    /* debug */
+    background-color: #f08080;
+}
+
+.footer-sec-1-item {
+    width: 25%;
+    /* debug */
+    background-color: #20b2aa;
+    border: 1px dashed #fefefe;
+
+}
