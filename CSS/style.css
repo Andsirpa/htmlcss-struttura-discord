@@ -79,3 +79,39 @@ header {
     background-color: #ee82ee;
 
 }
+
+.sec-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* debug */
+    background-color: #ffffff;
+    min-height: 300px;
+}
+
+.sec-2-box {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    /* debug */
+    border: 1px dashed black;
+}
+
+.section-item {
+    height: 250px;
+    /* debug */
+    border: 1px dashed black;
+
+}
+
+.sec-2-item-1 {
+    width: 60%;
+    /* debug */
+    background-color: #1e90ff;
+}
+
+.sec-2-item-2 {
+    width: 40%;
+    /* debug */
+    background-color: #ffc0cb;
+}
