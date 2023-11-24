@@ -153,3 +153,39 @@ header {
     /* debug */
     background-color: #1e90ff;
 }
+
+
+/* main sec 4 */
+
+.sec-4 {
+    /* debug */
+    background-color: #ffffff;
+}
+
+
+.sec-4-box {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    /* debug */
+    border: 1px dashed black;
+}
+
+.section-item {
+    height: 250px;
+    /* debug */
+    border: 1px dashed black;
+
+}
+
+.sec-4-item-1 {
+    width: 60%;
+    /* debug */
+    background-color: #1e90ff;
+}
+
+.sec-4-item-2 {
+    width: 40%;
+    /* debug */
+    background-color: #ffc0cb;
+}
