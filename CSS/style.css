@@ -1,0 +1,18 @@
+/* GENERALS */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+
+    /* debug */
+    background-color: #add8e6;
+    min-height: 100px;
+}
