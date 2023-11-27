@@ -14,12 +14,13 @@ header {
     justify-content: center;
 
     /* debug */
-    background-color: #add8e6;
+    background-color: #3161e0;
     min-height: 60px;
 }
 
 .header-box {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     width: 70%;
 
@@ -30,6 +31,7 @@ header {
     padding: 0 5px;
     display: flex;
     align-items: center;
+    background-color: #3161e0;
 }
 
 
@@ -37,26 +39,23 @@ header {
 .header-logo {
     flex-grow: 1;
 
-    /* debug */
-    border: 1px dashed black;
-    background-color: #daa520;
 }
 
 .header-nav {
     flex-grow: 2;
-    justify-content: center;
-    /* debug */
-    border: 1px dashed black;
-    background-color: #daa520;
+    justify-content: space-around;
+    width: 50%;
+
 }
 
 .header-login {
     flex-grow: 1;
-    justify-content: end;
+    justify-content: center;
 
-    /* debug */
-    border: 1px dashed black;
-    background-color: #daa520;
+    border-radius: 20px;
+    padding: 4px 8px;
+    background-color: white;
+
 }
 
 /* MAIN */
